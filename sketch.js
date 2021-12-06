@@ -38,7 +38,7 @@ function setup() {
   
   
 
-  ground =new Ground(0,390,900,20);
+  ground =new Ground(500,390,900,20);
 
 
   ball = Bodies.circle(100,200,20,ball_options);
