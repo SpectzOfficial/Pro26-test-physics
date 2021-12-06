@@ -30,8 +30,8 @@ function setup() {
    
   
   btn2 = createImg('up.png');
-  btn2.position(20,30);
-  btn2.size(50,50);
+  btn2.position(300,30);
+  btn2.size(300,50);
   btn2.mouseClicked(vForce);
   
    
@@ -41,11 +41,11 @@ function setup() {
   ground =new Ground(700,390,1500,20);
 
 
-  ball = Bodies.circle(100,200,20,ball_options);
+  ball = Bodies.circle(500,200,20,ball_options);
   World.add(world,ball);
   
   con = Matter.Constraint.create({
-pointA : {x :200, y :20},
+pointA : {x :700, y :20},
 bodyB : ball,
 pointB :{x:0,y:0},
 length : 100,
