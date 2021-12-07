@@ -31,7 +31,7 @@ function setup() {
   
   btn2 = createImg('up.png');
   btn2.position(300, 200);
-  btn2.size(256,256);
+  btn2.size(128, 128);
   btn2.mouseClicked(vForce);
   
    
